@@ -1,6 +1,0 @@
-
-public class SquareStore extends ShapeStore {
-    public SquareStore() {
-        
-    }
-}
