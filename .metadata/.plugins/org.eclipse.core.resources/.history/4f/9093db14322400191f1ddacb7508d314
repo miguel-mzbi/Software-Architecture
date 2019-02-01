@@ -1,0 +1,9 @@
+
+public class RectangleStore extends ShapeStore {
+
+	@Override
+	public Shape createShape() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

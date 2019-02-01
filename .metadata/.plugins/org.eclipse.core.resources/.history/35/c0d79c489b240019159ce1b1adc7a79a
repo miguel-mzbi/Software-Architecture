@@ -1,0 +1,34 @@
+package builder;
+
+public class HawaianPizzaBuilder extends PizzaBuilder {
+	private Pizza pizza;
+	@Override
+	public void setName(String name) {
+		this.pizza = new Pizza();	
+		this.pizza.setName(name);
+	}
+
+	@Override
+	public void setMasa() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSalsa() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setIngredientes() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Pizza getPizza() {
+		return this.pizza;
+	}
+
+}

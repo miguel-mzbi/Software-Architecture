@@ -1,0 +1,7 @@
+package builder;
+
+public abstract class PizzaBuilder {
+	public abstract void setMasa();
+	public abstract void setSalsa();
+	public abstract void setIngredientes();
+}

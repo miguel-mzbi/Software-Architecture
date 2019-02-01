@@ -1,0 +1,6 @@
+
+public class RectangleStore extends ShapeStore {
+    public RectangleStore() {
+        
+    }
+}

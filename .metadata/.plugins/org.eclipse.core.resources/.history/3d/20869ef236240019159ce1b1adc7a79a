@@ -1,0 +1,26 @@
+package abstractFactory;
+
+public class ShapeManager {
+	public Shape createShape(String shapeType)
+	{
+		Shape shape = null;
+		if(shapeType.equalsIgnoreCase("Rectangle"))
+		{
+			shape = new Rectangle();
+		} else if(shapeType.equalsIgnoreCase("Square"))
+		{
+			shape = new Square();
+		}
+		return shape;
+	}
+	
+	public static void main(String[] args) {
+		ShapeManager shapeManager = new ShapeManager();
+		Shape shape1 = shapeManager.createShape("Rectangle");
+		Shape shape2 = shapeManager.createShape("Square");
+		shape1.print();
+		shape2.print();
+	}
+
+}
+

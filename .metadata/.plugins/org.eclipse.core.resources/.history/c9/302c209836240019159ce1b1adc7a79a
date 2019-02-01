@@ -1,0 +1,10 @@
+package abstractFactory;
+
+public abstract class ShapeFactory {
+	public static ShapeFactory getShapeFactory(String shapeType) {
+		ShapeFactory factory = null;
+		if(shapeType.equalsIgnoreCase(shapeType)) {
+			factory = new RectangleFactory();
+		}
+	}
+}

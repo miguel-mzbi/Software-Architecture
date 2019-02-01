@@ -1,0 +1,9 @@
+package builder;
+
+public class Cocina {
+	private PizzaBuilder pizzaBuilder;
+	
+	public setPizzaBuilder(PizzaBuilder pizzaBuilder) {
+		this.pizzaBuilder = pizzaBuilder;
+	}
+}

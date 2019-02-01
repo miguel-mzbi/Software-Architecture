@@ -1,0 +1,8 @@
+package builder;
+
+public class Pizza {
+	private String name;
+	private String masa;
+	private String salsa;
+	private String ingredientes;
+}

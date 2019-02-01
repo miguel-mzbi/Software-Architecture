@@ -1,0 +1,12 @@
+package builder;
+
+public class Client {
+	public static void main(String[] args) {
+		Cocina cocina = new Cocina();
+		PizzaBuilder hawaianPizzaBuilder = new HawaianPizzaBuilder();
+		cocina.setPizzaBuilder(hawaianPizzaBuilder);
+		cocina.buildPizza("H1");
+		Pizza hawaianPizza = cocina.getPizza();
+		System.out.println(hawaianPizza.toString());
+	}
+}
