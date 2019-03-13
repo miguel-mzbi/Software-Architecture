@@ -10,15 +10,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import main.Map;
-import main.MyMap;
+import main.MiguelMontoyaMapTDD;
 	
+// Miguel Angel Montoya
 public class MapTest {
 
 	Map<Integer, String> map;
 
 	@BeforeTest
 	public void initMap() {
-		this.map = new MyMap<>();
+		this.map = new MiguelMontoyaMapTDD<>();
 	}
 	
 	@BeforeMethod

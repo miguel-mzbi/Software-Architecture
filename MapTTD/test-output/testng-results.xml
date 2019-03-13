@@ -2,116 +2,124 @@
 <testng-results total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-11T00:32:05Z" name="Default suite" finished-at="2019-03-11T00:32:05Z" duration-ms="88">
+  <suite started-at="2019-03-13T00:44:31Z" name="Default suite" finished-at="2019-03-13T00:44:31Z" duration-ms="176">
     <groups>
     </groups>
-    <test started-at="2019-03-11T00:32:05Z" name="Default test" finished-at="2019-03-11T00:32:05Z" duration-ms="88">
+    <test started-at="2019-03-13T00:44:31Z" name="Default test" finished-at="2019-03-13T00:44:31Z" duration-ms="176">
       <class name="test.MapTest">
-        <test-method is-config="true" signature="initMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="initMap" finished-at="2019-03-10T18:32:05Z" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="initMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="initMap" finished-at="2019-03-12T18:44:31Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method signature="testClear()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testClear" finished-at="2019-03-10T18:32:05Z" duration-ms="13" status="PASS">
+        <test-method signature="testClear()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testClear" finished-at="2019-03-12T18:44:31Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClear -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method signature="testContainsKey()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testContainsKey" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method signature="testContainsKey()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testContainsKey" finished-at="2019-03-12T18:44:31Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContainsKey -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clearMap -->
-        <test-method signature="testContainsValue()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testContainsValue" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        </test-method> <!-- fillMap -->
+        <test-method signature="testContainsValue()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testContainsValue" finished-at="2019-03-12T18:44:31Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContainsValue -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearMap -->
-        <test-method signature="testEmpty()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testEmpty" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testEmpty()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testEmpty" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmpty -->
-        <test-method signature="testGet()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testGet" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method signature="testGet()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testGet" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testGetDefault()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testGetDefault" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetDefault()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testGetDefault" finished-at="2019-03-12T18:44:31Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDefault -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testKeyCollection()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testKeyCollection" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testKeyCollection()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testKeyCollection" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testKeyCollection -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method signature="testPut()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testPut" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillMap -->
+        <test-method signature="testPut()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testPut" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPut -->
-        <test-method signature="testPutNull()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testPutNull" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillMap -->
+        <test-method signature="testPutNull()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testPutNull" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Key can't be null.]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException: Key can't be null.
-	at main.MyMap.put(MyMap.java:110)
-	at test.MapTest.testPutNull(MapTest.java:62)
+	at main.MiguelMontoyaMapTDD.put(MiguelMontoyaMapTDD.java:111)
+	at test.MapTest.testPutNull(MapTest.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,43 +150,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutNull -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearMap -->
-        <test-method signature="testRemove()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testRemove" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testRemove()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testRemove" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemove -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testRemoveNotInMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testRemoveNotInMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillMap -->
+        <test-method signature="testRemoveNotInMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testRemoveNotInMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <exception class="java.util.NoSuchElementException">
             <message>
               <![CDATA[Key doesn't exists.]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.util.NoSuchElementException: Key doesn't exists.
-	at main.MyMap.remove(MyMap.java:149)
-	at test.MapTest.testRemoveNotInMap(MapTest.java:124)
+	at main.MiguelMontoyaMapTDD.remove(MiguelMontoyaMapTDD.java:150)
+	at test.MapTest.testRemoveNotInMap(MapTest.java:125)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -209,19 +209,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveNotInMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testRemoveNull()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testRemoveNull" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testRemoveNull()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testRemoveNull" finished-at="2019-03-12T18:44:31Z" duration-ms="2" status="PASS">
           <exception class="java.util.NoSuchElementException">
             <message>
               <![CDATA[Key doesn't exists.]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.util.NoSuchElementException: Key doesn't exists.
-	at main.MyMap.remove(MyMap.java:134)
-	at test.MapTest.testRemoveNull(MapTest.java:129)
+	at main.MiguelMontoyaMapTDD.remove(MiguelMontoyaMapTDD.java:135)
+	at test.MapTest.testRemoveNull(MapTest.java:130)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -252,35 +252,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveNull -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testReplace()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testReplace" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testReplace()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testReplace" finished-at="2019-03-12T18:44:31Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReplace -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method signature="testReplaceNotInMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testReplaceNotInMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method signature="testReplaceNotInMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testReplaceNotInMap" finished-at="2019-03-12T18:44:31Z" duration-ms="2" status="PASS">
           <exception class="java.util.NoSuchElementException">
             <message>
               <![CDATA[Key doesn't exists.]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.util.NoSuchElementException: Key doesn't exists.
-	at main.MyMap.replace(MyMap.java:166)
-	at test.MapTest.testReplaceNotInMap(MapTest.java:97)
+	at main.MiguelMontoyaMapTDD.replace(MiguelMontoyaMapTDD.java:167)
+	at test.MapTest.testReplaceNotInMap(MapTest.java:98)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -311,27 +315,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReplaceNotInMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testReplaceNull()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testReplaceNull" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testReplaceNull()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testReplaceNull" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Key can't be null.]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException: Key can't be null.
-	at main.MyMap.replace(MyMap.java:155)
-	at test.MapTest.testReplaceNull(MapTest.java:92)
+	at main.MiguelMontoyaMapTDD.replace(MiguelMontoyaMapTDD.java:156)
+	at test.MapTest.testReplaceNull(MapTest.java:93)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -362,31 +362,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReplaceNull -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method signature="testSize()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testSize" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testSize()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testSize" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSize -->
-        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="fillMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="fillMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="fillMap" finished-at="2019-03-12T18:44:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="clearMap" finished-at="2019-03-10T18:32:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="clearMap()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="clearMap" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearMap -->
-        <test-method signature="testValueCollection()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-10T18:32:05Z" name="testValueCollection" finished-at="2019-03-10T18:32:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testValueCollection()[pri:0, instance:test.MapTest@37af1f93]" started-at="2019-03-12T18:44:31Z" name="testValueCollection" finished-at="2019-03-12T18:44:31Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValueCollection -->

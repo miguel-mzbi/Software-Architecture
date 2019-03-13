@@ -5,7 +5,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class MyMap<K, V> implements Map<K, V> {
+//Miguel Angel Montoya
+public class MiguelMontoyaMapTDD<K, V> implements Map<K, V> {
 	
 	private class Node {
 		Node next;
@@ -22,7 +23,7 @@ public class MyMap<K, V> implements Map<K, V> {
 	private int bucketsQty;
 	private int size;
 	
-	public MyMap() {
+	public MiguelMontoyaMapTDD() {
 		this.bucketsQty = 10;
 		this.size = 0;
 		this.buckets = new ArrayList<>();
